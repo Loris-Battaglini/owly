@@ -9,12 +9,12 @@
 ### 1. Stato Iniziale (Home Page)
 
 _Interfaccia pulita, minimale e intuitiva con barra di ricerca e pulsante di reset rapido._  
-![Stato Iniziale](/dist/assets/ricerca-vuota.png)
+![Stato Iniziale](/assets/img/ricerca-vuota.png)
 
 ### 2. Risultati della Ricerca e Dettagli
 
 _Visualizzazione dinamica delle card dei libri con copertine, pulsanti per i dettagli e modale descrittiva._  
-![Risultati Ricerca](/dist/assets/ricerca-piena.png)
+![Risultati Ricerca](/assets/img/ricerca-piena.png)
 
 ---
 
