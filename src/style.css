@@ -220,3 +220,11 @@ body {
   line-height: 1.6;
   color: #334155;
 }
+
+#bottone-reset-ricerca {
+  background-color: #b37856; 
+}
+
+#bottone-reset-ricerca:hover {
+  background-color: #9a6348de; 
+}

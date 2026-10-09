@@ -37,6 +37,11 @@ export function mostraListaLibri(libri) {
   });
 }
 
+export function ripristinaRicerca() {
+  document.getElementById("lista-libri").innerHTML = "";
+  mostraMessaggioStato("");
+}
+
 export function mostraMessaggioStato(testo, segnalaComeErrore = false) {
   const elementoMessaggio = document.getElementById("messaggio-stato");
 
