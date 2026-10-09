@@ -2,6 +2,8 @@
 
 > **Owly** è un'applicazione web moderna sviluppata in JavaScript (ES6+) che consente agli utenti di esplorare e cercare libri in tempo reale sfruttando le API pubbliche di **Open Library**. Progetto realizzato nell'ambito del percorso di Full-Stack Web Development di **Start2Impact**.
 
+🌐 **Live Demo**: [https://owly-ruddy.vercel.app/](https://owly-ruddy.vercel.app/)
+
 ---
 
 ## 🚀 Anteprima dell'Applicazione
