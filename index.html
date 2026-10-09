@@ -1,13 +1,69 @@
 <!doctype html>
-<html lang="en">
+<html lang="it">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>owly</title>
+    <title>Owly - Cerca Libri per Categoria</title>
+    <!-- Stile CSS -->
+    <link rel="stylesheet" href="./src/style.css" />
   </head>
   <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
+    <div id="app">
+      <!-- Intestazione -->
+      <header class="intestazione">
+        <h1 class="logo">Owly 🦉</h1>
+        <p class="motto">Esplora e scopri i libri per categoria</p>
+      </header>
+
+      <!-- Sezione Principale -->
+      <main class="contenuto-principale">
+        <!-- Form di Ricerca -->
+        <section class="sezione-ricerca">
+          <form id="modulo-ricerca" class="modulo-ricerca">
+            <div class="scatola-ricerca">
+              <input
+                type="text"
+                id="input-categoria"
+                class="input-ricerca"
+                placeholder="Inserisci una categoria (es. fantasy, history, science)..."
+                required
+                autocomplete="off"
+              />
+              <button
+                type="submit"
+                id="bottone-ricerca"
+                class="bottone-ricerca"
+              >
+                Cerca
+              </button>
+            </div>
+          </form>
+        </section>
+
+        <!-- Area per messaggi di caricamento o errori -->
+        <div id="messaggio-stato" class="messaggio-stato nascondi"></div>
+
+        <!-- Contenitore della griglia delle card dei libri -->
+        <section class="sezione-risultati">
+          <div id="lista-libri" class="griglia-libri"></div>
+        </section>
+      </main>
+
+      <!-- Finestra Modale per i dettagli del libro -->
+      <div id="modale-libro" class="modale nascondi">
+        <div class="contenuto-modale">
+          <button id="bottone-chiudi-modale" class="bottone-chiudi">
+            &times;
+            <!-- times stampa la x -->
+          </button>
+          <div id="corpo-modale">
+            <!-- con Il JS inserirsco qui la descrizione e i dettagli del libro cliccato -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Script JavaScript Principale -->
+    <script type="module" src="./src/main.js"></script>
   </body>
 </html>
